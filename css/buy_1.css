@@ -93,29 +93,126 @@
 }
 
 .main_div{
-    
+    display: flex;
 }
 
-.cards{
+.left_div{
+    width: 25%;
+    
+    
+    
+   
+  
+}
+
+.right_div{
     width: 70%;
+    
+   
+}
+
+.slidecontainer{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.slidecontainer h3{
+    color: rgb(77, 5, 77);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.min_max{
     display: flex;
-    margin-left: 15%;
+    justify-content: space-between;
+}
+
+ 
+
+
+  .slider {
+    
+    
+    width: 100% ;/* Full-width */
+    height: 25px; /* Specified height */
+    background: #315ae4; /* Grey background */
+    outline: none; /* Remove outline */
+    /* opacity: 0.9; Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+
+
+#search_bar{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#search_bar h3{
+    color: rgb(77, 5, 77);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+  #search_bar input{
+    height: 30px;
+    width: 60%;
+    border-radius: 2px;
+    border-style: none;
+    border-color: white;
+}
+#search_bar button{
+    height: 33px;
+    width: 30px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.top_brands{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+.top_brands input{
+    height: 15px;
+
+}
+
+.checkbox{
+    margin-top: 20px;
+
+}
+.car_label{
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+
+.cards{
+    width: 95%;
+    display: flex;
+    margin-left: 5%;
 
 }
  
 
 
-.side_div{
-    width: 25%;
-}
  
 
 .card{
     
-    width: 30%;
+    width: 40%;
     height: 280px;
-    margin: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     border-radius: 10px;
     background-color: whitesmoke;
@@ -129,7 +226,24 @@
  
 }
 
-.container h4,p,h3{
+.container h4,p{
    margin-left: 10%;
+}
+
+.container h4{
+    color: rgb(77, 5, 77);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container h3{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card img:hover{
+    height: 56%
 }
  

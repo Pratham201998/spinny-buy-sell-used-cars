@@ -1,0 +1,449 @@
+ body{
+    background-color: aliceblue;
+ }
+.navbar{
+    
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0%;
+    background-color: aliceblue;
+   
+}
+.logo{
+    width: 15%;
+
+}
+.search_bar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+.search_bar input{
+    height: 30px;
+    width: 80%;
+    border-radius: 2px;
+    border-style: none;
+    border-color: white;
+}
+.search_bar button{
+    height: 33px;
+    width: 30px;
+    border-radius: 2px;
+    border-style: none;
+}
+ 
+.search_bar input[placeholder]{
+    font-size: 20px;
+}
+.buy_car{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy_car a{
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.buy_car a:hover{
+   text-decoration: underline;
+}
+
+.sell_car{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sell_car a{
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.sell_car a:hover{
+   text-decoration: underline;
+}
+
+.select{
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-style: none;
+    
+}
+/* .account{
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-style: none;
+} */
+
+.login_link{
+   width: 7%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: black;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   border-style: none;
+
+
+}
+.login_link a{
+   text-decoration: none;
+   color: black;
+}
+
+.login_link a:hover{
+   text-decoration: underline;
+}
+
+
+.contact{
+    width: 10%;
+    margin-left: 30px;
+    
+    box-sizing: border-box;
+}
+
+ .brand_pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 400px;
+ }
+ .sachin{
+    width: 49.7%;
+    height: 500px;
+    
+ }
+ .sindhu{
+    width: 49.7%;
+    height: 500px;
+ }
+ .img1 img{
+    position:relative;
+    z-index: -1;
+   object-fit: cover;
+ }
+ .img2 img{
+    object-fit: cover;
+ }
+  
+ .assured_logo img{
+    
+    margin-left: 42%;
+     
+    height: 200px;
+}
+.assured_logo h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0%;
+    margin-left: 38%;
+}
+.assured_logo p{
+    margin-left: 43%;
+}
+
+.cards{
+    display: flex;
+    margin-left: 8%;
+    height: 480px;
+   
+    
+
+}
+ 
+
+ .card{
+    display: inline-block;
+     margin: 15px;
+     
+    width: 250px;
+    height: 350px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+ }
+ .card img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+   
+    
+ }
+ 
+ .card h3{
+   
+     
+    font-size: medium;
+    margin-left: 40px;
+    font-style: italic;
+    font-weight: bold;
+   
+ }
+ .video{
+    margin-left: 42%;
+    height: 200px;
+
+ }
+ .video button{
+    width: 30%;
+    height: 44px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 15px ;
+    margin-top: 40px;
+
+ }
+ 
+ .link{
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 65px;
+    
+ }
+ .link:hover{
+    text-decoration: underline;
+ }
+
+ .info{
+    height: 500px;
+     
+
+ }
+ .info h2{
+    margin-left: 40%;
+ }
+ 
+ .card_info{
+    margin-left: 14%;
+
+ }
+
+
+ .steps{
+    display: inline-block;
+     margin: 10px;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, );
+
+ }
+ 
+
+ .steps img{
+    width: 100%;
+ }
+
+ .container h3{
+    margin-left: 18%;
+ }
+ .container p{
+    
+    margin: 5px;
+   
+   
+    
+ }
+   .container h4{
+    color: blue;
+    margin-left: 80px;
+    font-weight: bold;
+    
+    
+ }
+ .container a{
+    text-decoration: none;
+ }
+ .container a:hover{
+    text-decoration: underline;
+ }
+
+ .cities{
+   height: 400px;
+ }
+ .cities h1{
+   font-weight: bolder;
+   font-size: 35px;
+   color: rgb(39, 3, 39);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 40%;
+ }
+
+ .cities h2{
+       font-weight: bold;
+       font-size: larger;
+       margin-left: 40%;
+ }
+  
+ .city_div{
+   margin-left: 6%;
+ }
+
+ .city{
+   display: inline-block;
+   
+   width: 280px;
+   height: 350px;
+   margin: 8px;
+   border-radius: 10px;
+   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+ }
+
+ .city img{
+   width: 60%;
+   margin-left: 20%;
+   margin-top: 3%;
+   height: 50%;
+   border-radius: 30px;
+   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+   
+ }
+ 
+
+ .city h4{
+   margin-left: 33%;
+   font-size: 25px;
+   font-weight: bolder;
+   
+ }
+ .city h3{
+   margin-top: 40px;
+   margin-left: 80px;
+ }
+
+
+ 
+  
+ #delhi{
+   background-color: rgb(238, 238, 39);
+ }
+
+ #benglore{
+   background-color: rgb(16, 196, 196);
+ }
+
+ #hydrabad{
+   background-color: purple;
+ }
+
+ #chennai{
+   background-color: rgb(138, 138, 230);
+ }
+
+ /* #delhi img:hover{
+   height: 60%;
+ } */
+
+ .city h4, h3{
+   color: white;
+ }
+ #delhi h4{
+   color: black;
+ }
+ #delhi h3{
+   color: black;
+ }
+
+ .fyqs{
+   width: 1100px;
+   margin: 5px;
+   height: 500px;
+ }
+
+ .fyqs > h1{
+   margin-left: 45%;
+   margin-top: 80px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+   color: rgb(49, 3, 49);
+
+   font-size: 30px;
+ }
+  
+.fyq{
+   width: 100%;
+   margin-left: 10%;
+
+}
+
+.fyq > select{
+   width: 100%;
+   height: 50px;
+   border-style: none;
+   font-size: 17px;
+   margin: 10px;
+
+}
+.discription{
+   width: 90%;
+   margin-left: 5%;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 25x;
+   white-space: normal;
+
+}
+.discription h6{
+   font-size: 20px;
+   color: rgb(49, 3, 49);
+
+}
+
+
+.footer{
+   width: 100%;
+   height:300px;
+   object-fit: cover;
+
+}
+.footer img {
+   width: 100%;
+   object-fit: cover;
+   height: 500px;
+   margin-top: 30px;
+   border-style: none;
+    
+  
+}
+ 
+ 

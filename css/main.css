@@ -431,19 +431,46 @@
 
 
 .footer{
+   background-image: url("https://i.pinimg.com/564x/3a/46/84/3a4684bd4a8f0b6e925cc2679f941f5a.jpg");
    width: 100%;
+   background-repeat: initial;
    height:300px;
    object-fit: cover;
 
 }
-.footer img {
-   width: 100%;
+/* .footer img {
+   
    object-fit: cover;
-   height: 500px;
+   height: 300px;
    margin-top: 30px;
    border-style: none;
-    
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+   
   
-}
+} */
+
+ .footer_info >h4{
+   width: 60%;
+   padding-top: 50px;
+   text-align: center;
+   margin-left: 22%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+   color: aliceblue;
+ }
+
+ .facebook > svg{
+   width: 40px;
+ }
+
+ .social_media{
+   display: flex;
+   width: 20%;
+   justify-content: space-between;
+   margin-top: 40px;
+   margin-left:40%;
+ }
  
  
